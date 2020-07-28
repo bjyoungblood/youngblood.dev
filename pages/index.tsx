@@ -67,6 +67,12 @@ const Home: React.FC = () => {
         </div>
         <Section title="Experience">
           <ExperienceBlock
+            organization="SmartRent"
+            position="Sr. Software Engineer"
+            startDate={'April 2019'}
+            endDate={'Current'}
+          />
+          <ExperienceBlock
             organization="Yellow Express"
             position="Global CTO"
             startDate={'September 2019'}
