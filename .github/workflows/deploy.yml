@@ -26,7 +26,7 @@ jobs:
       - run: yarn run export
 
       - name: Deploy to GH Pages
-        uses: crazy-max/ghaction-github-pages@v1.3.0
+        uses: crazy-max/ghaction-github-pages@v2.3.0
         with:
           build_dir: out
           fqdn: youngblood.dev
