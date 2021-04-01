@@ -1,6 +1,7 @@
 import React from 'react';
 import { ServerStyleSheets } from '@material-ui/core';
 import NextDocument, {
+  Html,
   Head,
   Main,
   NextScript,
@@ -56,7 +57,7 @@ export default class Document extends NextDocument {
 
   render() {
     return (
-      <html lang="en">
+      <Html lang="en">
         <Head>
           {/* PWA primary color */}
           <meta name="theme-color" content={theme.palette.primary.main} />
@@ -69,7 +70,7 @@ export default class Document extends NextDocument {
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     );
   }
 }
