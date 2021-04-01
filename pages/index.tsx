@@ -68,8 +68,8 @@ const Home: React.FC = () => {
         <Section title="Experience">
           <ExperienceBlock
             organization="SmartRent"
-            position="Sr. Software Engineer"
-            startDate={'April 2019'}
+            position="Staff Software Engineer"
+            startDate={'April 2020'}
             endDate={'Current'}
           />
           <ExperienceBlock
