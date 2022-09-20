@@ -36,6 +36,7 @@ const useStyles = makeStyles((theme) => ({
 export interface HeroProps {
   title: string;
   subtitle?: string;
+  children: React.ReactNode;
 }
 
 export const Hero: React.FC<HeroProps> = ({ title, subtitle, children }) => {

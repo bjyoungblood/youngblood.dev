@@ -3,6 +3,7 @@ import { makeStyles, Typography } from '@material-ui/core';
 
 interface SectionProps {
   title: string;
+  children: React.ReactNode;
 }
 
 const useStyles = makeStyles((theme) => ({

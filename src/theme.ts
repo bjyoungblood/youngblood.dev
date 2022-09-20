@@ -1,9 +1,9 @@
-import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
+import { createTheme, responsiveFontSizes } from '@material-ui/core/styles';
 import { deepOrange, cyan } from '@material-ui/core/colors';
 
 // Create a theme instance.
 const theme = responsiveFontSizes(
-  createMuiTheme({
+  createTheme({
     palette: {
       primary: {
         main: deepOrange[500],
