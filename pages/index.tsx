@@ -32,11 +32,6 @@ const Home: React.FC = () => {
     <>
       <Hero title="Ben Youngblood" subtitle="Software Engineer">
         <ContactChip
-          icon={<Phone />}
-          href="tel:+13037206704"
-          label="(303) 720-6704"
-        />
-        <ContactChip
           icon={<Email />}
           href="mailto:ben@youngblood.dev"
           label="ben@youngblood.dev"
